@@ -1,0 +1,33 @@
+.sidebar {
+  flex: 0.3;
+  border-right: 1px solid rgb(227, 227, 227);
+}
+
+.sidebarOption {
+  display: flex;
+  justify-content: right;
+  padding: 10px 40px;
+}
+
+
+@media (max-width: 768px) {
+  .sidebar {
+    display: none; 
+  }
+
+  .feed {
+    flex: 1; 
+  }
+}
+
+
+@media (max-width: 480px) {
+  .sidebar {
+    display: none;
+  }
+
+  
+  .feed {
+    flex: 1; 
+}
+}
