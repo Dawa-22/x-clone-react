@@ -21,7 +21,6 @@
   display: flex;
   justify-content: right;
   border-top: 1px solid rgb(227, 227, 227);
-  cursor: pointer;
 }
 .tweet_btn {
   width: 70px;
